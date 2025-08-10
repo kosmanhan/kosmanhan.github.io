@@ -1,2 +1,2 @@
-[home](https://kosmanhan.github.io/)
+(https://kosmanhan.github.io/)
 # Hello
