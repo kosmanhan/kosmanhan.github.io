@@ -1,0 +1,55 @@
+/* General page styling */
+body {
+  font-family: Calibri, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #ddd;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+}
