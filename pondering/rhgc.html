@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RHGC – kosmanhan</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="icon" href="../assets/favicon.png" type="image/png" />
+</head>
+<body>
+  <header>
+    <h1><a href="../index.html">kosmanhan</a></h1>
+    <nav>
+      <ul>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../arts.html">Arts</a></li>
+        <li><a href="../pondering.html">Pondering</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>Robinhood Gold Card</h2>
+      <p><strong>Written on:</strong> September 25, 2025</p>
+      <p><strong>Last edited:</strong> September 25, 2025</p>
+
+      <p>Q: Robinhood Gold Card has a flat 3% return on purchases. It requires a Robinhood Gold membership, which has an annual fee of $50. When does it make sense to have that instead of a no annual fee 2% cash back? </p>
+
+      <h3>Some Ugly Python Code</h3>
+      <pre><code>
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Define the x range: spending from 0 to 6000
+x = np.linspace(0, 6000, 600)
+
+# Define the equations
+y1 = (2 * x) / 100        # 2% of spending
+y2 = (3 * x) / 100 - 50   # 3% of spending minus $50
+
+# Create the plot
+plt.figure(figsize=(10, 6))
+plt.plot(x, y1, label='WF Active Cash/Citibank Double Cash', color='red', linewidth=2)
+plt.plot(x, y2, label='Robinhood Gold', color='gold', linewidth=2)
+
+# Axis labels and title
+plt.title('Credit Card Cash Back Comparison', fontsize=16)
+plt.xlabel('Spending ($)', fontsize=12)
+plt.ylabel('Cash Back ($)', fontsize=12)
+
+# Add a grid, legend, and style
+plt.grid(True, linestyle='--', alpha=0.6)
+plt.legend()
+plt.tight_layout()
+
+# Show the plot
+plt.show()
+      </code></pre>
+
+      <h3>Graph Comparison</h3>
+      <img src="rhgc-graph.png" alt="Graph comparing 2% vs 3% with $50 fee" style="max-width:100%; height:auto;" />
+      
+      <p>A: For spending >$5000/year.</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2025 Osman Khan</p>
+  </footer>
+</body>
+</html>
