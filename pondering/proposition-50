@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proposition 50 – kosmanhan</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="icon" href="../assets/favicon.png" type="image/png" />
+</head>
+<body>
+  <header>
+    <h1><a href="../index.html">kosmanhan</a></h1>
+    <nav>
+      <ul>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../arts.html">Arts</a></li>
+        <li><a href="../pondering.html">Pondering</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>I Oppose Proposition 50</h2>
+      <p><strong>Written on:</strong> October 31, 2025</p>
+
+      <p>I oppose Proposition 50.</p>
+
+      <p>Response to gerrymandering in Texas should not be tit-for-tat.</p>
+
+      <p>A simple solution would be to implement proportional representative elections for the number of seats allocated to each state.</p>
+
+      <p>In the case of California’s 52 seats, this would mean a party getting 25% of the votes would get 13 seats. Interestingly, 51 of those seats would require 1.92% of the votes, while the 52nd seat would only need a max of 0.96%.</p>
+
+      <p><strong>Last edited:</strong> October 31, 2025</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2025 Osman Khan</p>
+  </footer>
+</body>
+</html>
